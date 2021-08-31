@@ -1,3 +1,7 @@
+inputs:
+  template-name:  # id of input being deployed
+    description: 'Path to template being deployed.'
+    required: true
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
