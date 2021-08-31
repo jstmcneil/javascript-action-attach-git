@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  },
+  "name": "javascript-action-attach-git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstmcneil/javascript-action-attach-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstmcneil/javascript-action-attach-git/issues"
+  },
+  "homepage": "https://github.com/jstmcneil/javascript-action-attach-git#readme",
+  "description": ""
+}
