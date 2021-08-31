@@ -1,13 +1,12 @@
-inputs:
-  template-name:  # id of input being deployed
-    description: 'Path to template being deployed.'
-    required: true
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
     default: ${{ github.actor }}
+  template-name:  # id of input being deployed
+    description: 'Path to template being deployed.'
+    required: true
 outputs:
   time: # id of output
     description: 'The time we greeted you'
